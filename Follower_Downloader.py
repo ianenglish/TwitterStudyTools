@@ -15,8 +15,8 @@ api = tweepy.API(auth)
 
 # creates cursor object
 # insert the username of a person for whom you want followers and change datafile name
-cursor = tweepy.Cursor(api.followers, screen_name="ianenglish45", skip_status=True)
-saveFile = open('followers_ianenglish45.csv', 'a')
+cursor = tweepy.Cursor(api.followers, screen_name="screenname", skip_status=True)
+saveFile = open('followers.csv', 'a')
 
 # write data in file as long as Twitter limit has not been reached
 while True:
