@@ -7,10 +7,10 @@ import re
 import time
 
 #Twitter API credentials
-access_key = "287963590-wryjqNalvKHwFPGnye63KqQeDvC6q0CoY36ve2cs"
-access_secret = "EQYqx00rXiIvT7KhZzGDUXS6JBKyaN2kLxwHeClAVjXrI"
-consumer_key = "UwZ6O5MoIrrIFeTQXDazWqPME"
-consumer_secret = "oVvIzxNHLTxyDbgNRU3xc4OTKAPp5ojp0MW4XTdXIFJD1Tsnx0"
+access_key = "xxxx"
+access_secret = "xxxx"
+consumer_key = "xxxx"
+consumer_secret = "xxxx"
 
 
 def get_all_tweets(screen_name):
